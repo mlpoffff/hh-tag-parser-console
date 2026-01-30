@@ -1,0 +1,11 @@
+{
+  "name": "hh-tag-parser-console",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.13.4",
+    "cheerio": "^1.2.0",
+    "express": "^4.22.1",
+    "xlsx": "^0.18.5"
+  }
+}
