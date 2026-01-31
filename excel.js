@@ -5,7 +5,7 @@ const path = require('path');
 function saveToExcel(data, fileName) {
 
     const formattedData = data.map(item => ({
-        'Тэг': item.Tag,
+        'Тег': item.Tag,
         'Кол-во повторений': item.Count
     }));
 

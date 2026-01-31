@@ -30,7 +30,7 @@ const parseVacancy = async (url) => {
             .map((_, li) => $(li).text().trim())
             .get();
         console.log('Вакансия', url);
-        console.log('Тэги', tags);
+        console.log('Теги', tags);
         return tags;
 
 
